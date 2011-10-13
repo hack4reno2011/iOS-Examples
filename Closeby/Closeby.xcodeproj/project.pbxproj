@@ -72,10 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6257DE1446CA8E00D25E68 /* QuartzCore.framework in Frameworks */,
-				AB6257DC1446CA7B00D25E68 /* AVFoundation.framework in Frameworks */,
-				AB6257DA1446CA6D00D25E68 /* CoreMotion.framework in Frameworks */,
 				AB6257991446C85300D25E68 /* UIKit.framework in Frameworks */,
+				AB6257DA1446CA6D00D25E68 /* CoreMotion.framework in Frameworks */,
+				AB6257DC1446CA7B00D25E68 /* AVFoundation.framework in Frameworks */,
+				AB6257DE1446CA8E00D25E68 /* QuartzCore.framework in Frameworks */,
 				AB62579B1446C85300D25E68 /* Foundation.framework in Frameworks */,
 				AB6257D81446CA4000D25E68 /* CoreLocation.framework in Frameworks */,
 				AB62579D1446C85300D25E68 /* CoreGraphics.framework in Frameworks */,
@@ -88,9 +88,6 @@
 		AB6257891446C85300D25E68 = {
 			isa = PBXGroup;
 			children = (
-				AB6257DD1446CA8E00D25E68 /* QuartzCore.framework */,
-				AB6257DB1446CA7B00D25E68 /* AVFoundation.framework */,
-				AB6257D91446CA6D00D25E68 /* CoreMotion.framework */,
 				AB6257C61446C90F00D25E68 /* Icon.png */,
 				AB6257C41446C90B00D25E68 /* Icon@2x.png */,
 				AB6257C21446C90700D25E68 /* Icon-72.png */,
@@ -116,6 +113,9 @@
 		AB6257971446C85300D25E68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB6257DD1446CA8E00D25E68 /* QuartzCore.framework */,
+				AB6257DB1446CA7B00D25E68 /* AVFoundation.framework */,
+				AB6257D91446CA6D00D25E68 /* CoreMotion.framework */,
 				AB6257D71446CA4000D25E68 /* CoreLocation.framework */,
 				AB6257981446C85300D25E68 /* UIKit.framework */,
 				AB62579A1446C85300D25E68 /* Foundation.framework */,

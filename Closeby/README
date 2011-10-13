@@ -3,3 +3,9 @@
 Closeby is an Augmented Reality example. It uses code from the pARk sample code by Apple.
 
 This sample demonstrates how to overlay labels for locations based on where they are in relation to you. Tapping on a label displays some information about that location.
+
+Important frameworks to add:  
+- QuartzCore.framework  
+- AVFoundation.framework  
+-  CoreMotion.framework  
+- CoreLocation.framework  
