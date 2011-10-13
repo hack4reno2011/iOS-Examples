@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>My Favorite Muffin</string>
+		<key>note</key>
+		<string>Quality products and friendly service are two of the key ingredients in separating My Favorite Muffin Your All Day Bakery Café from some of the large chains. Our cake-like muffins are prepared with a formula that uses soybean oil rather than butter or margarine to produce a gourmet muffin that is cholesterol friendly and extraordinary tasting.</string>
+		<key>latitude</key>
+		<real>39.521654</real>
+		<key>longitude</key>
+		<real>-119.815435</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>St. James Infirmary</string>
+		<key>note</key>
+		<string>A craft cocktail, beer, and wine bar. The bar that started the real beer revolution in Reno, not only do we have the best selection in town, it&apos;s hand picked by people who actually know about and love beer. We built the bandwagon we didn&apos;t jump on it. We put the same attention to detail in everything from, the films we show, the disc selections on the jukebox, our vintage photo booth, and our now famous (often emulated) house cocktails. It&apos;s about passion and attention to detail. We hope you enjoy our place.</string>
+		<key>latitude</key>
+		<real>39.520363</real>
+		<key>longitude</key>
+		<real>-119.816004</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Reno Collective</string>
+		<key>note</key>
+		<string>Reno Collective is a coworking space in Reno, Nevada that provides a collaborative workspace and community for entrepreneurs, freelancers, creatives and independent workers. Do you love where you work? We do.</string>
+		<key>latitude</key>
+		<real>39.519687</real>
+		<key>longitude</key>
+		<real>-119.81499</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rubicon Deli</string>
+		<key>note</key>
+		<string>Stylish sandwich shop in a sweet spot on California Avenue that serves unique flavors, house-baked bread, salads, soup, chips, drinks cookies.</string>
+		<key>latitude</key>
+		<real>39.520512</real>
+		<key>longitude</key>
+		<real>-119.81595</real>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pioneer Center</string>
+		<key>note</key>
+		<string>The Pioneer Center is the home of the Reno area’s most prominent performing arts organizations.</string>
+		<key>latitude</key>
+		<real>39.524411</real>
+		<key>longitude</key>
+		<real>-119.811419</real>
+	</dict>
+</array>
+</plist>

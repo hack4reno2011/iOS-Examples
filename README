@@ -1,0 +1,10 @@
+# iOS Examples
+
+This repo contains several iOS examples. iOS 5+ and Xcode 4.2 are required.
+
+
+## Closeby
+
+Closeby is an Augmented Reality example. It uses code from the pARk sample code by Apple.
+
+This sample demonstrates how to overlay labels for locations based on where they are in relation to you. Tapping on a label displays some information about that location.
