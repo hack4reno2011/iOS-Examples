@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB55B791447B226006D367B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB55B781447B226006D367B /* UIKit.framework */; };
+		ABB55B7B1447B226006D367B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB55B7A1447B226006D367B /* Foundation.framework */; };
+		ABB55B7D1447B226006D367B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB55B7C1447B226006D367B /* CoreGraphics.framework */; };
+		ABB55B831447B226006D367B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB55B811447B226006D367B /* InfoPlist.strings */; };
+		ABB55B851447B226006D367B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB55B841447B226006D367B /* main.m */; };
+		ABB55B891447B226006D367B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB55B881447B226006D367B /* AppDelegate.m */; };
+		ABB55B8C1447B226006D367B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB55B8B1447B226006D367B /* ViewController.m */; };
+		ABB55B8F1447B226006D367B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB55B8D1447B226006D367B /* ViewController_iPhone.xib */; };
+		ABB55B921447B226006D367B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB55B901447B226006D367B /* ViewController_iPad.xib */; };
+		ABB55B9D1447B24D006D367B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55B9C1447B24D006D367B /* Default.png */; };
+		ABB55BA01447B250006D367B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55B9F1447B250006D367B /* Default@2x.png */; };
+		ABB55BA21447B25F006D367B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA11447B25F006D367B /* Default-Portrait~ipad.png */; };
+		ABB55BA41447B263006D367B /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA31447B263006D367B /* Default-Landscape~ipad.png */; };
+		ABB55BA61447B296006D367B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA51447B296006D367B /* Icon-72.png */; };
+		ABB55BA81447B29E006D367B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA71447B29E006D367B /* Icon.png */; };
+		ABB55BAA1447B2A1006D367B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA91447B2A1006D367B /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABB55B741447B226006D367B /* Geolocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geolocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB55B781447B226006D367B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABB55B7A1447B226006D367B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABB55B7C1447B226006D367B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABB55B801447B226006D367B /* Geolocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geolocation-Info.plist"; sourceTree = "<group>"; };
+		ABB55B821447B226006D367B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABB55B841447B226006D367B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB55B861447B226006D367B /* Geolocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geolocation-Prefix.pch"; sourceTree = "<group>"; };
+		ABB55B871447B226006D367B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB55B881447B226006D367B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB55B8A1447B226006D367B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABB55B8B1447B226006D367B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABB55B8E1447B226006D367B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		ABB55B911447B226006D367B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		ABB55B9C1447B24D006D367B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ABB55B9F1447B250006D367B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ABB55BA11447B25F006D367B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		ABB55BA31447B263006D367B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		ABB55BA51447B296006D367B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		ABB55BA71447B29E006D367B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ABB55BA91447B2A1006D367B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB55B711447B226006D367B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB55B791447B226006D367B /* UIKit.framework in Frameworks */,
+				ABB55B7B1447B226006D367B /* Foundation.framework in Frameworks */,
+				ABB55B7D1447B226006D367B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB55B691447B226006D367B = {
+			isa = PBXGroup;
+			children = (
+				ABB55BA91447B2A1006D367B /* Icon@2x.png */,
+				ABB55BA71447B29E006D367B /* Icon.png */,
+				ABB55BA51447B296006D367B /* Icon-72.png */,
+				ABB55BA31447B263006D367B /* Default-Landscape~ipad.png */,
+				ABB55BA11447B25F006D367B /* Default-Portrait~ipad.png */,
+				ABB55B9F1447B250006D367B /* Default@2x.png */,
+				ABB55B9C1447B24D006D367B /* Default.png */,
+				ABB55B7E1447B226006D367B /* Geolocation */,
+				ABB55B771447B226006D367B /* Frameworks */,
+				ABB55B751447B226006D367B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB55B751447B226006D367B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB55B741447B226006D367B /* Geolocation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB55B771447B226006D367B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB55B781447B226006D367B /* UIKit.framework */,
+				ABB55B7A1447B226006D367B /* Foundation.framework */,
+				ABB55B7C1447B226006D367B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB55B7E1447B226006D367B /* Geolocation */ = {
+			isa = PBXGroup;
+			children = (
+				ABB55B871447B226006D367B /* AppDelegate.h */,
+				ABB55B881447B226006D367B /* AppDelegate.m */,
+				ABB55B8A1447B226006D367B /* ViewController.h */,
+				ABB55B8B1447B226006D367B /* ViewController.m */,
+				ABB55B8D1447B226006D367B /* ViewController_iPhone.xib */,
+				ABB55B901447B226006D367B /* ViewController_iPad.xib */,
+				ABB55B7F1447B226006D367B /* Supporting Files */,
+			);
+			path = Geolocation;
+			sourceTree = "<group>";
+		};
+		ABB55B7F1447B226006D367B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB55B801447B226006D367B /* Geolocation-Info.plist */,
+				ABB55B811447B226006D367B /* InfoPlist.strings */,
+				ABB55B841447B226006D367B /* main.m */,
+				ABB55B861447B226006D367B /* Geolocation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB55B731447B226006D367B /* Geolocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB55B951447B226006D367B /* Build configuration list for PBXNativeTarget "Geolocation" */;
+			buildPhases = (
+				ABB55B701447B226006D367B /* Sources */,
+				ABB55B711447B226006D367B /* Frameworks */,
+				ABB55B721447B226006D367B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geolocation;
+			productName = Geolocation;
+			productReference = ABB55B741447B226006D367B /* Geolocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB55B6B1447B226006D367B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Treeness, LLC";
+			};
+			buildConfigurationList = ABB55B6E1447B226006D367B /* Build configuration list for PBXProject "Geolocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB55B691447B226006D367B;
+			productRefGroup = ABB55B751447B226006D367B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB55B731447B226006D367B /* Geolocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB55B721447B226006D367B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB55B831447B226006D367B /* InfoPlist.strings in Resources */,
+				ABB55B8F1447B226006D367B /* ViewController_iPhone.xib in Resources */,
+				ABB55B921447B226006D367B /* ViewController_iPad.xib in Resources */,
+				ABB55B9D1447B24D006D367B /* Default.png in Resources */,
+				ABB55BA01447B250006D367B /* Default@2x.png in Resources */,
+				ABB55BA21447B25F006D367B /* Default-Portrait~ipad.png in Resources */,
+				ABB55BA41447B263006D367B /* Default-Landscape~ipad.png in Resources */,
+				ABB55BA61447B296006D367B /* Icon-72.png in Resources */,
+				ABB55BA81447B29E006D367B /* Icon.png in Resources */,
+				ABB55BAA1447B2A1006D367B /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB55B701447B226006D367B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB55B851447B226006D367B /* main.m in Sources */,
+				ABB55B891447B226006D367B /* AppDelegate.m in Sources */,
+				ABB55B8C1447B226006D367B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB55B811447B226006D367B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB55B821447B226006D367B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABB55B8D1447B226006D367B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB55B8E1447B226006D367B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		ABB55B901447B226006D367B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB55B911447B226006D367B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB55B931447B226006D367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB55B941447B226006D367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB55B961447B226006D367B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geolocation/Geolocation-Prefix.pch";
+				INFOPLIST_FILE = "Geolocation/Geolocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABB55B971447B226006D367B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geolocation/Geolocation-Prefix.pch";
+				INFOPLIST_FILE = "Geolocation/Geolocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB55B6E1447B226006D367B /* Build configuration list for PBXProject "Geolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB55B931447B226006D367B /* Debug */,
+				ABB55B941447B226006D367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB55B951447B226006D367B /* Build configuration list for PBXNativeTarget "Geolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB55B961447B226006D367B /* Debug */,
+				ABB55B971447B226006D367B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB55B6B1447B226006D367B /* Project object */;
+}
