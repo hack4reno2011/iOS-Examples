@@ -23,6 +23,8 @@
 		ABB55BA61447B296006D367B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA51447B296006D367B /* Icon-72.png */; };
 		ABB55BA81447B29E006D367B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA71447B29E006D367B /* Icon.png */; };
 		ABB55BAA1447B2A1006D367B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BA91447B2A1006D367B /* Icon@2x.png */; };
+		ABB55BAC1447B978006D367B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB55BAB1447B978006D367B /* CoreLocation.framework */; };
+		ABB55BAE1447CC75006D367B /* README in Resources */ = {isa = PBXBuildFile; fileRef = ABB55BAD1447CC75006D367B /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		ABB55BA51447B296006D367B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		ABB55BA71447B29E006D367B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		ABB55BA91447B2A1006D367B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		ABB55BAB1447B978006D367B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABB55BAD1447CC75006D367B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB55B791447B226006D367B /* UIKit.framework in Frameworks */,
+				ABB55BAC1447B978006D367B /* CoreLocation.framework in Frameworks */,
 				ABB55B7B1447B226006D367B /* Foundation.framework in Frameworks */,
 				ABB55B7D1447B226006D367B /* CoreGraphics.framework in Frameworks */,
 			);
@@ -73,6 +78,7 @@
 				ABB55BA11447B25F006D367B /* Default-Portrait~ipad.png */,
 				ABB55B9F1447B250006D367B /* Default@2x.png */,
 				ABB55B9C1447B24D006D367B /* Default.png */,
+				ABB55BAD1447CC75006D367B /* README */,
 				ABB55B7E1447B226006D367B /* Geolocation */,
 				ABB55B771447B226006D367B /* Frameworks */,
 				ABB55B751447B226006D367B /* Products */,
@@ -90,6 +96,7 @@
 		ABB55B771447B226006D367B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABB55BAB1447B978006D367B /* CoreLocation.framework */,
 				ABB55B781447B226006D367B /* UIKit.framework */,
 				ABB55B7A1447B226006D367B /* Foundation.framework */,
 				ABB55B7C1447B226006D367B /* CoreGraphics.framework */,
@@ -183,6 +190,7 @@
 				ABB55BA61447B296006D367B /* Icon-72.png in Resources */,
 				ABB55BA81447B29E006D367B /* Icon.png in Resources */,
 				ABB55BAA1447B2A1006D367B /* Icon@2x.png in Resources */,
+				ABB55BAE1447CC75006D367B /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

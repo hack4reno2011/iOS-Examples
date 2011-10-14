@@ -10,6 +10,11 @@
 
 @implementation ViewController
 
+@synthesize addressLabel = _addressLabel;
+@synthesize latitudeLabel = _latitudeLabel;
+@synthesize longitudeLabel = _longitudeLabel;
+@synthesize locationManager = _locationManager;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,10 +27,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.locationManager = [[CLLocationManager alloc] init];
+    [self.locationManager setDelegate:self];
+    [self.locationManager startUpdatingLocation];
 }
 
 - (void)viewDidUnload
 {
+    [self setAddressLabel:nil];
+    [self setLatitudeLabel:nil];
+    [self setLongitudeLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -44,6 +55,7 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
 	[super viewWillDisappear:animated];
+    [self.locationManager stopUpdatingLocation];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
@@ -59,6 +71,23 @@
     } else {
         return YES;
     }
+}
+
+#pragma mark - CLLocationManagerDelegate
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+{    
+    CLLocation *currentLocation = [self.locationManager location];
+    CLGeocoder *geocoder = [[CLGeocoder alloc] init];
+    [self.latitudeLabel setText:[NSString stringWithFormat:@"%f",  currentLocation.coordinate.latitude]];
+    [self.longitudeLabel setText:[NSString stringWithFormat:@"%f", currentLocation.coordinate.longitude]];
+    
+    [geocoder reverseGeocodeLocation:currentLocation completionHandler:^(NSArray *placemarks, NSError *error) {
+        CLPlacemark *placemark = [placemarks lastObject];
+        NSString *addressString = [placemark name];
+        [self.addressLabel setText:addressString];
+    }];
+    
 }
 
 @end

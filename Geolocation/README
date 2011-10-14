@@ -1,0 +1,3 @@
+# Geolocation
+
+Geolocation is an example of how to use CLLocationManager to get your current location. It also shows you how to use CLGeocoder to get the current street name from the current location. 
