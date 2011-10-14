@@ -1,3 +1,6 @@
 # Geolocation
 
-Geolocation is an example of how to use CLLocationManager to get your current location. It also shows you how to use CLGeocoder to get the current street name from the current location. 
+Geolocation is an example of how to use CLLocationManager to get your current location. Once you have your locatio you can use CLGeocoder to get the current street name from the current location using reverse geocoding. Forward geocoding calculates latitude and longitude based on the address.
+
+
+This sample also shows you how to calculate the distance in meters between two locations.

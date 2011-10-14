@@ -13,6 +13,7 @@
 @synthesize addressLabel = _addressLabel;
 @synthesize latitudeLabel = _latitudeLabel;
 @synthesize longitudeLabel = _longitudeLabel;
+@synthesize distanceLabel = _distanceLabel;
 @synthesize locationManager = _locationManager;
 
 - (void)didReceiveMemoryWarning
@@ -37,6 +38,7 @@
     [self setAddressLabel:nil];
     [self setLatitudeLabel:nil];
     [self setLongitudeLabel:nil];
+    [self setDistanceLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -83,10 +85,19 @@
     [self.longitudeLabel setText:[NSString stringWithFormat:@"%f", currentLocation.coordinate.longitude]];
     
     [geocoder reverseGeocodeLocation:currentLocation completionHandler:^(NSArray *placemarks, NSError *error) {
-        CLPlacemark *placemark = [placemarks lastObject];
-        NSString *addressString = [placemark name];
-        [self.addressLabel setText:addressString];
+        if ([placemarks count] > 0) {
+            // Pick the best out of the possible placemarks
+            CLPlacemark *placemark = [placemarks objectAtIndex:0];
+            NSString *addressString = [placemark name];
+            [self.addressLabel setText:addressString];
+        }
+
     }];
+    
+    CLLocation *pionerLocation = [[CLLocation alloc] initWithLatitude:39.524411 longitude:-119.811419];
+    CLLocationDistance distance = [currentLocation distanceFromLocation:pionerLocation];
+    [self.distanceLabel setText:[NSString stringWithFormat:@"%f m", distance]];
+    
     
 }
 

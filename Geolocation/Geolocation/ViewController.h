@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *addressLabel;
 @property (strong, nonatomic) IBOutlet UILabel *latitudeLabel;
 @property (strong, nonatomic) IBOutlet UILabel *longitudeLabel;
+@property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
 
 @property (strong, nonatomic) CLLocationManager *locationManager;
 
